@@ -6,15 +6,13 @@
 	<title>repl.it</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 		<style>
-			div{
-				background-color: lightgrey;
-				width: 300px;
-				border-bottom: solid;
-				padding: 50px;
-				margin: 20px 10px 40px 20px;
+			#header2{
+				text-align: center;
+				text-decoration: underline overline;
 			}
-			li:hover {
-				display: none;
+
+			#stanzas{
+				text-align: justify;
 			}
 		</style>
 </head>
@@ -23,12 +21,18 @@
 		This is the div content
 	</div>
 
-	<ol>
-		<li>Item 1</li>
-		<li>Item 2</li>
-		<li>Item 3</li>
-		<li>Item 4</li>
-	</ol>
+	<section height="80vh">
+		<h1 class="headers">Sample Poem</h1>
+		<h2 id="header2" class="headers">Labs</h2>
+
+		<div id="stanzas">
+			<p>Why won't students come to labs? This is something I always ponder. After unprepared students write exams, They watch their marks in wonder.</p>
+			<p>Why won't students come to labs? What is more important than class? How can you be a student if you don't even try to pass?</p>
+			<p>Why won't students come to labs? It happens all the time. If you came to labs, you'd know what to do. But you would rather duck and go lime.</p>
+			<p>Why won't students come to labs? I see them all now stressing. If you only learned this basic programming, You would surely now be zessing.</p>
+		</div>
+	</section>
+
 	<script src="script.js"></script>
 </body>
 </html>
